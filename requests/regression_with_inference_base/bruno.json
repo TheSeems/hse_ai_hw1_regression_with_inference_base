@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "regression_with_inference_base",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

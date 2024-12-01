@@ -1,0 +1,15 @@
+meta {
+  name: Infer CSV
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8181/predict_items
+  body: multipartForm
+  auth: none
+}
+
+body:multipart-form {
+  data: @file(../../examples/cars_train_without_selling_prices.csv)
+}

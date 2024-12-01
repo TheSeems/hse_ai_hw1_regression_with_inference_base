@@ -1,0 +1,28 @@
+meta {
+  name: Infer single item
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8181/predict_item
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Ford Focus IV Hatchback",
+    "year": 2022,
+    "km_driven": 46412,
+    "fuel": "Diesel",
+    "seller_type": "Individual",
+    "transmission": "Manual",
+    "owner": "Third Owner",
+    "mileage": "20.83 kmpl",
+    "engine": "1500 CC",
+    "max_power": "95 bhp",
+    "torque": "300 Nm @ 1750-2000 rpm",
+    "seats": 4
+  }
+}
